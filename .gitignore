@@ -1,20 +1,35 @@
-# Bỏ qua môi trường ảo 
+
+# Môi trường ảo và biến môi trường
+.venv/
 venv/
 env/
 pr_env/
 .env
+.env.*
 
-# Bỏ qua cache Python & Jupyter
+# Cache Python và Jupyter
 __pycache__/
 *.py[cod]
+.pytest_cache/
 .ipynb_checkpoints/
 
-# Bỏ qua thư mục dữ liệu MNIST 
+# Dữ liệu MNIST
 data/
-../data/
 
-# Bỏ qua các file cấu hình IDE 
+# Mô hình và kết quả thực nghiệm
+artifacts/
+figures/
+results/
+
+# File đóng gói
+*.zip
+
+# Cấu hình IDE
 .vscode/
 .idea/
 *.sublime-workspace
 *.sublime-project
+
+# File hệ thống
+.DS_Store
+Thumbs.db
