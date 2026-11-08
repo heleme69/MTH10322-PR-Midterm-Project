@@ -478,7 +478,7 @@ def render_results(pred=None, info: dict | None = None, names: list[str] | None 
 
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_ARTIFACTS = ROOT / "artifacts"
 
 MODEL_FILES = {
