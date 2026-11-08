@@ -1,0 +1,13 @@
+Model,rank,digit_a,digit_b,errors_a_to_b,errors_b_to_a,total_errors,in_eda_closest_pairs
+Naive Bayes,1,4,9,176,67,243,True
+Naive Bayes,2,3,5,18,109,127,False
+Naive Bayes,3,5,8,78,27,105,True
+Softmax Regression,1,4,9,39,30,69,True
+Softmax Regression,2,7,9,34,27,61,True
+Softmax Regression,3,3,5,21,36,57,False
+MLP,1,3,5,1,12,13,False
+MLP,2,4,9,6,7,13,True
+MLP,3,2,7,5,5,10,False
+Random Forest,1,4,9,30,15,45,True
+Random Forest,2,2,7,10,20,30,False
+Random Forest,3,3,5,13,14,27,False

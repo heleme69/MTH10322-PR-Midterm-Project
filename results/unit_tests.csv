@@ -1,0 +1,13 @@
+test,status
+test_naive_bayes,PASSED
+test_softmax_gradient,PASSED
+test_softmax_stability,PASSED
+test_mlp_gradient,PASSED
+test_sgd_momentum,PASSED
+test_dropout,PASSED
+test_early_stopping,PASSED
+test_forest_voting,PASSED
+test_mlp_classes,PASSED
+test_mlp_history,PASSED
+test_mlp_divergence,PASSED
+test_mlp_validation_pair,PASSED

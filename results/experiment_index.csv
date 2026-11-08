@@ -1,0 +1,32 @@
+id,content,section,outputs,output_exists
+Unit test,Chạy test_models.py bằng pytest (12 test),4,results/unit_tests.csv,True
+E1,Lưới ảnh ví dụ theo nhãn,3.1,figures/eda_sample_grid.png,True
+E2,"Phân bố lớp trên train, validation, test",3.2,"figures/eda_class_distribution.png, results/eda_class_distribution.csv",True
+E3,Cường độ pixel và độ lệch chuẩn,3.3,"figures/eda_pixel_statistics.png, results/eda_pixel_statistics.csv",True
+E4,Ảnh trung bình và tổng cường độ pixel theo lớp,3.4,"figures/eda_class_means.png, results/eda_class_intensity.csv",True
+E5,"Khoảng cách giữa các ảnh trung bình, ba cặp gần nhất",3.5,"figures/eda_centroid_distance.png, results/eda_closest_pairs.csv",True
+P1,Sơ đồ quy trình thực nghiệm,5.1,figures/diagram_pipeline.png,True
+P2,Sơ đồ kiến trúc MLP,5.2,figures/diagram_mlp.png,True
+P3,Sơ đồ Random Forest,5.3,figures/diagram_random_forest.png,True
+N1,Naive Bayes: sweep alpha,6.3,"figures/nb_alpha_sweep.png, results/nb_alpha_sweep.csv",True
+S1,Softmax: mất mát theo epoch,7.2,figures/softmax_loss_curve.png,True
+S2,Softmax: sweep learning rate,7.3,"figures/softmax_lr_sweep.png, results/softmax_lr_sweep.csv",True
+S3,Softmax: sweep L2,7.4,"figures/softmax_l2_sweep.png, results/softmax_l2_sweep.csv",True
+P4,Softmax: heatmap trọng số,7.6,figures/softmax_weights.png,True
+M0,MLP: baseline,8.1,results/mlp_baseline.csv,True
+M1,MLP: đường cong học,8.2,figures/mlp_learning_curve.png,True
+M2,MLP: learning rate x momentum,8.3,"figures/mlp_lr_momentum.png, results/mlp_lr_momentum.csv",True
+M3,MLP: batch size,8.4,"figures/mlp_batch_size.png, results/mlp_batch_size.csv",True
+M4,MLP: kiến trúc,8.5,"figures/mlp_architecture.png, results/mlp_architecture.csv",True
+M5,MLP: Dropout,8.6,"figures/mlp_dropout.png, results/mlp_dropout.csv",True
+M6,MLP: Early Stopping,8.7,"figures/mlp_early_stopping.png, results/mlp_early_stopping.csv",True
+M7,MLP: L2 Weight Decay,8.8,"figures/mlp_weight_decay.png, results/mlp_weight_decay.csv",True
+R1,Random Forest: số cây,9.2,"figures/forest_n_estimators.png, results/forest_n_estimators.csv",True
+R2,Decision Tree đơn và Random Forest,9.3,results/forest_tree_vs_forest.csv,True
+R3,Random Forest: độ quan trọng đặc trưng,9.4,figures/forest_feature_importance.png,True
+K1,Metrics của 4 model trên 3 tập,10.2,results/final_metrics.csv,True
+K2,Mười hai ma trận nhầm lẫn,10.3,"results/confusion_matrices.npz, figures/confusion_matrices_test.png",True
+K3,"Cặp chữ số nhầm lẫn nhiều nhất, ảnh dự đoán sai",10.4,"results/confusion_pairs.csv, figures/confusion_top_pairs.png, figures/misclassified_examples.png",True
+Recall,Recall theo chữ số,10.5,"results/recall_per_class.csv, figures/recall_per_class.png",True
+K4,"So sánh accuracy, thời gian, khả năng giải thích",10.6,"results/final_comparison.csv, figures/accuracy_time.png",True
+K5,Đối chiếu với scikit-learn,11.5,"results/sklearn_comparison.csv, figures/sklearn_comparison.png",True

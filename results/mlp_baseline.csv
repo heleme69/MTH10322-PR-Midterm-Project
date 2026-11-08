@@ -1,0 +1,2 @@
+config,hidden_sizes,train_acc,val_acc,train_f1,val_f1,gap_acc,fit_time_s,val_predict_time_s,train_only_time_s,eval_time_s,diverged,best_epoch,epochs_trained,n_params,val_acc_at_least_0.97
+M0,"[256, 128]",0.99874,0.9771,0.9987494602397623,0.9767984444822112,0.021639999999999993,28.04052566900009,0.08126454900047975,22.17033329900096,5.862826384999607,False,9,10,235146,True

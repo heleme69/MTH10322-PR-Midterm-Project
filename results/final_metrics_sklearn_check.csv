@@ -1,0 +1,13 @@
+Model,Split,diff_accuracy,diff_precision_macro,diff_recall_macro,diff_f1_macro,confusion_matrix_equal
+Naive Bayes,train,0.0,0.0,0.0,0.0,True
+Naive Bayes,validation,0.0,0.0,0.0,0.0,True
+Naive Bayes,test,0.0,0.0,0.0,0.0,True
+Softmax Regression,train,0.0,0.0,0.0,0.0,True
+Softmax Regression,validation,0.0,0.0,0.0,0.0,True
+Softmax Regression,test,0.0,0.0,0.0,0.0,True
+MLP,train,0.0,0.0,0.0,0.0,True
+MLP,validation,0.0,0.0,0.0,0.0,True
+MLP,test,0.0,0.0,0.0,0.0,True
+Random Forest,train,0.0,0.0,0.0,0.0,True
+Random Forest,validation,0.0,0.0,0.0,0.0,True
+Random Forest,test,0.0,0.0,0.0,2.220446049250313e-16,True

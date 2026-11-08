@@ -1,0 +1,4 @@
+split,n_samples,n_features,image_shape,n_classes,dtype,pixel_min,pixel_max
+train,50000,784,28x28,10,float32,0.0,1.0
+validation,10000,784,28x28,10,float32,0.0,1.0
+test,10000,784,28x28,10,float32,0.0,1.0

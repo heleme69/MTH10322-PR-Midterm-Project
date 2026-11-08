@@ -1,0 +1,5 @@
+criterion,model,value
+Test accuracy cao nhất,MLP,0.9847
+Test macro-F1 cao nhất,MLP,0.9846060866298844
+Thời gian huấn luyện ngắn nhất,Naive Bayes,0.06061077899994416
+Thời gian dự đoán trên test ngắn nhất,Naive Bayes,0.025213622999217478

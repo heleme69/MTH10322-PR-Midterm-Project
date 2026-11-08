@@ -1,0 +1,5 @@
+model,config,fit_time_s
+Naive Bayes,"{""alpha"": 0.001}",0.06061077899994416
+Softmax Regression,"{""lr"": 0.1, ""max_epochs"": 20, ""batch_size"": 128, ""lam"": 0.0, ""seed"": 42}",26.325908512999376
+MLP,"{""hidden_sizes"": [1024], ""lr"": 0.1, ""momentum"": 0.9, ""batch_size"": 64, ""dropout"": 0.2, ""weight_decay"": 0.0, ""max_epochs"": 30, ""patience"": 5, ""seed"": 42, ""eval_batch_size"": 1024}",362.8098001589997
+Random Forest,"{""n_estimators"": 50, ""max_depth"": 15, ""max_features"": ""sqrt"", ""seed"": 42}",31.52954553500058

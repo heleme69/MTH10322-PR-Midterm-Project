@@ -1,0 +1,2 @@
+best_epoch,epochs_trained,stopped_early,fit_time_s,n_params,val_ce_after_fit,val_acc,train_only_time_s,eval_time_s,diverged
+19,24,True,362.8098001589997,814090,0.0764253827571869,0.9832,317.28161533599814,45.524394382002356,False

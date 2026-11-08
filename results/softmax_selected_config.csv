@@ -1,0 +1,2 @@
+model,lr,lam,max_epochs,batch_size,seed,val_acc,val_f1
+Softmax Regression,0.1,0.0,20,128,42,0.9187,0.9174446340609211

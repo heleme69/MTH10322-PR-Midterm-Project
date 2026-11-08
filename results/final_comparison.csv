@@ -1,0 +1,5 @@
+Model,train_time_s,predict_time_test_s,test_accuracy,test_f1_macro,n_parameters,n_trees,total_tree_nodes,interpretability
+Naive Bayes,0.06061077899994416,0.025213622999217478,0.8361,0.8345822320810999,7850.0,,,Xác suất theo pixel của từng lớp đọc trực tiếp được (mục 6.4); giả định độc lập có điều kiện giữa các pixel.
+Softmax Regression,26.325908512999376,0.0387006470000415,0.9222,0.9210377666695397,7850.0,,,Trọng số của từng lớp vẽ được thành ảnh 28x28 (mục 7.6); biên quyết định tuyến tính.
+MLP,362.8098001589997,0.289172628000415,0.9847,0.9846060866298844,814090.0,,,Nhiều lớp ẩn phi tuyến; không đọc trực tiếp ý nghĩa của từng trọng số.
+Random Forest,31.52954553500058,0.41761021300044376,0.961,0.9606572790706924,,50.0,339142.0,Có độ quan trọng đặc trưng (mục 9.4); dự đoán là biểu quyết của nhiều cây.

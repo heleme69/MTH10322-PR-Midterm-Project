@@ -1,0 +1,2 @@
+model,n_estimators,max_depth,train_acc,val_acc,train_f1,val_f1,gap_acc,fit_time_s,val_predict_time_s
+Random Forest,50,15,0.99666,0.9594,0.9967069773627613,0.9589703467256608,0.03725999999999996,31.491153081000448,0.39876661299967964

@@ -1,0 +1,7 @@
+hyperparameter,value,chosen_in,val_acc_in_experiment
+hidden_sizes,[1024],M4,0.9756
+lr,0.1,M2,0.9747
+momentum,0.9,M2,0.9747
+batch_size,64,M3,0.9736
+dropout,0.2,M5,0.9803
+weight_decay,0.0,M7,0.9772

@@ -1,0 +1,2 @@
+model,n_estimators,max_depth,max_features,voting,seed,val_acc,val_f1
+Random Forest,50,15,sqrt,hard (majority),42,0.9594,0.9589703467256608
